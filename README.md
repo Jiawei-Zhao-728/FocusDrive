@@ -17,7 +17,7 @@ FocusDrive is an innovative iOS productivity app that transforms the mundane act
 
 ## 🎯 The Problem
 
-Traditional Pomodoro timers are boring. Watching numbers count down doesn't make you *want* to start working—it just reminds you how long you'll be stuck there. For many people (especially those with ADHD), **the hardest part isn't staying focused—it's starting in the first place.**
+Traditional Pomodoro timers are boring. Watching numbers count down doesn't make you _want_ to start working—it just reminds you how long you'll be stuck there. For many people (especially those with ADHD), **the hardest part isn't staying focused—it's starting in the first place.**
 
 ## 💡 The Solution
 
@@ -30,7 +30,9 @@ Instead of "I need to work for 2 hours," it becomes "I'm driving to Yosemite Nat
 ## ✨ Key Features
 
 ### 🚙 **Choose Your Vehicle**
+
 Select from 6 different vehicle types, each suited to different work styles:
+
 - **Sports Car** - Intense work, short bursts (15-45 min)
 - **Sedan** - Balanced focus, studying (45-90 min)
 - **SUV** - Creative work, flexible thinking (60-120 min)
@@ -39,7 +41,9 @@ Select from 6 different vehicle types, each suited to different work styles:
 - **Vintage Car** - Leisurely pace, reading (30-90 min)
 
 ### 🗺️ **Real Destinations**
+
 Drive to 50+ real locations across the United States:
+
 - 🏙️ Major cities (NYC, SF, Chicago, Miami...)
 - 🏞️ National Parks (Yosemite, Yellowstone, Grand Canyon...)
 - 🗽 Landmarks (Statue of Liberty, Golden Gate Bridge...)
@@ -49,7 +53,9 @@ Drive to 50+ real locations across the United States:
 Routes are calculated using **Apple Maps** with real distances and durations.
 
 ### 🎮 **Live Driving Experience**
+
 During your focus session:
+
 - **Dashboard Interface** - Speed, fuel gauge, distance traveled
 - **3D Map View** - Watch your progress along the route
 - **Realistic Physics** - Speed varies with "road conditions"
@@ -58,6 +64,7 @@ During your focus session:
 - **Haptic Feedback** - Feel the road through subtle vibrations
 
 ### 🏆 **Gamification**
+
 - **Collect Postcards** - Earn vintage-style postcards for each destination
 - **Unlock Achievements** - 9+ achievements across 5 categories
 - **Track Statistics** - Total miles, routes completed, focus quality
@@ -65,7 +72,9 @@ During your focus session:
 - **Vehicle Progression** - Unlock new vehicles as you drive more
 
 ### 🚫 **App Blocking (Optional)**
+
 Enable "Road Mode" to block distracting apps during your drive:
+
 - Integrates with iOS Screen Time API
 - Choose which categories to block (social media, games, etc.)
 - Gentle reminders if you try to access blocked apps
@@ -75,6 +84,7 @@ Enable "Road Mode" to block distracting apps during your drive:
 ## 🎬 How It Works
 
 ### 1. **Pre-Drive Ritual** (30-60 seconds)
+
 - Open the app to your garage
 - Select a vehicle
 - Choose a destination (or search for one)
@@ -87,6 +97,7 @@ Enable "Road Mode" to block distracting apps during your drive:
   - Start engine 🚗
 
 ### 2. **Active Session**
+
 - Put your phone down or use other apps
 - The journey happens in the background
 - Real-time dashboard shows your progress:
@@ -97,6 +108,7 @@ Enable "Road Mode" to block distracting apps during your drive:
 - Optional rest stops (Pomodoro-style breaks)
 
 ### 3. **Arrival**
+
 - Celebration animation when you "arrive"
 - Earn a collectible postcard
 - View session statistics
@@ -107,9 +119,11 @@ Enable "Road Mode" to block distracting apps during your drive:
 ## 🎨 Design Philosophy
 
 ### **Immersive Metaphor**
+
 The entire app commits to the driving metaphor. Every interaction reinforces the feeling of taking a road trip, making focus time feel like an adventure rather than work.
 
 ### **Realistic Details**
+
 - Real locations with actual coordinates
 - Accurate route distances from Apple Maps
 - Vehicle-specific engine sounds (coming soon)
@@ -117,13 +131,16 @@ The entire app commits to the driving metaphor. Every interaction reinforces the
 - Fuel gauge that represents your mental energy
 
 ### **Minimal Friction**
+
 - 30-second setup for experienced users
 - Quick Start option for repeat routes
 - Background operation when using other apps
 - No annoying notifications during focus time
 
 ### **Generous Free Tier**
+
 Core functionality is completely free:
+
 - Unlimited focus sessions
 - All vehicles and destinations unlockable
 - Full gamification system
@@ -136,6 +153,7 @@ Premium features focus on analytics and customization, not locking core features
 ## 🛠️ Technical Architecture
 
 ### **Built With**
+
 - **SwiftUI** - Modern declarative UI
 - **SwiftData** - Native persistence layer
 - **MapKit** - Real route calculation
@@ -144,6 +162,7 @@ Premium features focus on analytics and customization, not locking core features
 - **Screen Time API** - App blocking integration
 
 ### **Project Structure**
+
 ```
 FocusDrive/
 ├── Models/               # 7 SwiftData models
@@ -168,6 +187,7 @@ FocusDrive/
 ```
 
 ### **Architecture Highlights**
+
 - **MVVM** pattern with reactive `@Observable` managers
 - **Clean separation** of concerns (UI, business logic, data)
 - **SwiftData** for modern, type-safe persistence
@@ -179,6 +199,7 @@ FocusDrive/
 ## 📊 Current Status
 
 ### ✅ **Phase 1-3: Complete (Backend Ready)**
+
 - ✅ All 7 data models implemented
 - ✅ 6 managers with full business logic (1,431 lines)
 - ✅ 50 destinations with real coordinates
@@ -189,6 +210,7 @@ FocusDrive/
 - ✅ Test interface for validation
 
 ### 🚧 **Phase 4: In Progress (UI Development)**
+
 - [ ] GarageView - Vehicle selection screen
 - [ ] DestinationPickerView - Map-based destination picker
 - [ ] DrivingDashboardView - Main session interface
@@ -196,6 +218,7 @@ FocusDrive/
 - [ ] SettingsView - App preferences
 
 ### 📅 **Future Phases**
+
 - **Phase 5:** Polish & Assets (audio files, app icon)
 - **Phase 6:** TestFlight Beta
 - **Phase 7:** App Store Launch
@@ -205,6 +228,7 @@ FocusDrive/
 ## 🚀 Roadmap
 
 ### **Short-term** (Next 2-3 weeks)
+
 - [ ] Complete primary UI views
 - [ ] Add audio files for all 6 vehicle types
 - [ ] Design app icon and launch screen
@@ -212,6 +236,7 @@ FocusDrive/
 - [ ] Device testing and optimization
 
 ### **Medium-term** (1-2 months)
+
 - [ ] Premium features (analytics dashboard)
 - [ ] Apple Watch companion app
 - [ ] Siri Shortcuts integration
@@ -219,6 +244,7 @@ FocusDrive/
 - [ ] Seasonal events and themed challenges
 
 ### **Long-term** (3-6 months)
+
 - [ ] iPad optimization
 - [ ] International destinations
 - [ ] User-generated routes (share custom drives)
@@ -240,11 +266,13 @@ FocusDrive/
 ## 🏁 Getting Started
 
 ### **Requirements**
+
 - Xcode 15.0+
 - iOS 17.0+ device or simulator
 - macOS 14.0+ (for development)
 
 ### **Installation**
+
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/FocusDrive.git
@@ -257,6 +285,7 @@ open FocusDrive.xcodeproj
 ```
 
 ### **Running the App**
+
 1. Select a simulator or connected device
 2. Press `⌘R` to build and run
 3. Test using the `TestSessionView` interface
@@ -268,6 +297,7 @@ open FocusDrive.xcodeproj
 Contributions are welcome! Whether you're fixing bugs, adding features, or improving documentation, your help makes FocusDrive better.
 
 ### **Ways to Contribute**
+
 - 🐛 Report bugs via Issues
 - 💡 Suggest features or improvements
 - 🎨 Design new vehicle types or destinations
@@ -275,6 +305,7 @@ Contributions are welcome! Whether you're fixing bugs, adding features, or impro
 - 🔧 Submit pull requests
 
 ### **Development Guidelines**
+
 - Follow Swift style guidelines
 - Write descriptive commit messages
 - Test thoroughly before submitting PRs
@@ -307,6 +338,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ and lots of virtual road trips** 🚗💨
 
-*Making productivity an adventure, one drive at a time.*
+_Making productivity an adventure, one drive at a time._
 
 </div>
